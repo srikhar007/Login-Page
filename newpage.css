@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(./images/background\ img.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.container{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin-bottom: 20px;
+
+}
+
+.container .one{
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 25px;
+    background: url(./images/chainsaw.png);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 10px 10px lightslategray;
+}
+
+.container .two{
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 25px;
+    background: url(./images/onepiece.png);
+    background-size: cover;
+    box-shadow: 10px 10px lightslategray;
+}
+
+.container .three{
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 25px;
+    background: url(./images/aot.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 10px 10px lightslategray;
+}
+
+.container .four{
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 25px;
+    background: url(./images/naruto.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 10px 10px lightslategray;
+}
+
+.container .five{
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 25px;
+    background: url(./images/bleach.png);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 10px 10px lightslategray;
+}
+
+.container .six{
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 25px;
+    background: url(./images/blackclover.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 10px 10px lightslategray;
+}
+
+.container .seven{
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 25px;
+    background: url(./images/classroom.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 10px 10px lightslategray;
+}
+
+.container .eight{
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 25px;
+    background: url(./images/deathnote.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 10px 10px lightslategray;
+}
+
+.container .nine{
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 25px;
+    background: url(./images/ds.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 10px 10px lightslategray;
+}
+
+.container .ten{
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 25px;
+    background: url(./images/dragonball.png);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 10px 10px lightslategray;
+}
+
+.container .eleven{
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 25px;
+    background: url(./images/tr.png);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 10px 10px lightslategray;
+}
+
+.container .twovelve{
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 25px;
+    background: url(./images/as.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 10px 10px lightslategray;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.container .one:hover{
+    cursor: pointer;
+    
+}
+
+footer{
+    font-size: 1.5rem;
+    text-align: center;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+}
+
+.para{
+    font-size: 1.3rem;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1:hover{
+    cursor: pointer;
+    font-size: 2.5rem;
+    transition: 1s;
+    color: red;
+}
+
+.para:hover{
+    font-size: 1.8rem;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.matter{
+    margin-top: 350px;
+    font-size: 20px;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    margin-left: 70px;
+}
+
+a:hover{
+    cursor: pointer;
+    background-color: white;
+    transition: 1s;
+}
+
+button{
+    background-color: lightblue;
+    color: black;
+    border-radius: 15px;
+    padding: 7px;
+    margin-bottom: 10px;
+    margin-left: 160px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: blueviolet;
+    color: white;
+    transition: 1s;
+}
+
+.paragraph{
+    color: aliceblue;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.paragraph:hover{
+    color: red;
+    cursor: pointer;
+    transition: 1s;
+}
